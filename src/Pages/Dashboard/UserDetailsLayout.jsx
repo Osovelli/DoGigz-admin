@@ -59,7 +59,7 @@ function UserDetailsLayout() {
 
   return (
     <>
-      <div className="mx-auto px-4 py-8">
+      <div className="mx-auto">
         {/* Header with gradient background */}
         <div className="relative rounded-lg p-6 pt-16 pb-32 overflow-hidden">
           {/* Decorative elements */}
@@ -125,10 +125,10 @@ function UserDetailsLayout() {
         </div>
 
         {/* Tab Navigation */}
-        <div className="border-b mb-8 md:mt-4">
-          <div className="flex overflow-x-auto">
+        <div className="mb-8 md:mt-4 md:px-6">
+          <div className="flex overflow-x-auto ">
             <Link
-              to={`/admin/users/${userId}`}
+              to={`/dashboard/user-management/${userId}/`}
               className={`px-6 py-3 font-medium text-sm whitespace-nowrap ${
                 activeTab === "info" ? "border-b-2 border-primary text-primary" : "text-gray-500 hover:text-gray-700"
               }`}
@@ -163,7 +163,9 @@ function UserDetailsLayout() {
         </div>
 
         {/* Content Area - Will be filled by the child routes */}
-        <Outlet context={{ user, setUser }} />
+        <div className="md:px-8">
+          <Outlet context={{ user, setUser }} />
+        </div>
       </div>
     </>
   )

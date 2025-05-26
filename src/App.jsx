@@ -92,9 +92,9 @@ function App() {
       <ViewTransitionWrapper>
       <Routes>
         {/* Auth routes */}
-        <Route path="/signup" element={<SignUp />} />
+        {/* <Route path="/signup" element={<SignUp />} /> */}
         <Route path="/signin" element={<Login />} />
-        <Route path="/verifyEmail" element={<VerifyEmail />} />
+        {/* <Route path="/verifyEmail" element={<VerifyEmail />} />
         <Route path="/user-type" element={<UserType />} />
         <Route path="/gig-preferences" element={<GigPreferences />} />
         <Route path="/job-preferences" element={<JobPreferences />} />
@@ -103,7 +103,7 @@ function App() {
         <Route path="/document-verification" element={<DocumentVerification />} />
         <Route path="/verification-details" element={<VerificationDetails />} />
         <Route path="/liveness-check" element={<LivenessCheck />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/reset-password" element={<ResetPassword />} /> */}
 
         {/* Main routes */}
         {/* <Route path="/" element={<LandingLayout />}>
@@ -168,13 +168,13 @@ function App() {
             </Route>
           </Route>
         {/* <Route path="gigs/:id" element={<GigDetails />} /> */}
-        <Route path="/dashboard/wallet" element={<Wallet />} />
+       {/*  <Route path="/dashboard/wallet" element={<Wallet />} /> */}
          {/* Messages and Calls */}
-         <Route path="/messages/:id?" element={<DashboardLayout />}>
+         {/* <Route path="/messages/:id?" element={<DashboardLayout />}>
             <Route index element={<MessagesPage />} />
           </Route>
           <Route path="/video-call/:id" element={<VideoCallPage />} />
-          <Route path="/call/:id" element={<VideoCallPage videoOff={true} />} />
+          <Route path="/call/:id" element={<VideoCallPage videoOff={true} />} /> */}
       </Routes>
       </ViewTransitionWrapper>
     </Router>

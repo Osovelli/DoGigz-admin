@@ -113,7 +113,7 @@ function App() {
         </Route> */}
         
         {/* DoGigz Admin path */}
-        <Route path="/dashboard" element={<DashboardLayout />} >
+        <Route path="/" element={<DashboardLayout />} >
           <Route index element={<DashboardHome />} />
           <Route path="user-management" element={<UserManagement />} />
           <Route path="courses" element={<Courses />} />
@@ -127,7 +127,7 @@ function App() {
           <Route path="roles" element={<RolesAndPermissions />} />
           <Route path="profile" element={<Profile />}/>
           {/* <Route path="user-management/:userId" element={<UserDetails />} /> */}
-          <Route path="/dashboard/user-management/:userId" element={<UserDetailsLayout />}>
+          <Route path="/user-management/:userId" element={<UserDetailsLayout />}>
             <Route index element={<UserInfo />} />
             <Route path="wallet" element={<UserWalletManagement />} />
             <Route path="courses" element={<CoursesManagement />} />
@@ -159,7 +159,7 @@ function App() {
               <Route path="privacy" element={<Privacy />} />
               {/* Add other account routes as needed */}
             </Route>
-            <Route path="/dashboard/settings" element={<SettingsLayout />}>
+            <Route path="/settings" element={<SettingsLayout />}>
               <Route index element={<PrivacyPolicy />} />
               <Route path="privacy" element={<PrivacyPolicy />} />
               <Route path="faq" element={<FAQ />} />

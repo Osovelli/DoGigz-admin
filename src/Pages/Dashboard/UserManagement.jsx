@@ -245,7 +245,7 @@ function UserManagement() {
   } */
     const handleViewUser = (user) => {
         // Navigate to user details page
-        navigate(`/dashboard/user-management/${user.id}`)
+        navigate(`/user-management/${user.id}`)
     }
 
   const handleAddUser = () => {

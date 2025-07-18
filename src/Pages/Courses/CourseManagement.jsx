@@ -87,7 +87,7 @@ function CoursesManagement() {
 
   // Handle opening a course
   const handleOpenCourse = (course) => {
-    navigate(`/dashboard/courses/${course.id}`, { state: { course } })
+    navigate(`/courses/${course.id}`, { state: { course } })
   }
 
   return (

@@ -21,7 +21,7 @@ const SettingsLayout = () => {
             All Gigs
           </NavLink> */}
           <NavLink 
-            to="/dashboard/settings/privacy"
+            to="/settings/privacy"
             className={({ isActive }) => 
               `pb-4 px-1 ${isActive 
                 ? 'border-b-2 border-black text-black font-medium' 
@@ -31,7 +31,7 @@ const SettingsLayout = () => {
             Privacy Policy
           </NavLink>
           <NavLink 
-            to="/dashboard/settings/faq"
+            to="/settings/faq"
             className={({ isActive }) => 
               `pb-4 px-1 ${isActive 
                 ? 'border-b-2 border-black text-black font-medium' 
@@ -41,7 +41,7 @@ const SettingsLayout = () => {
             FAQ
           </NavLink>
           <NavLink 
-            to="/dashboard/settings/newsletter"
+            to="/settings/newsletter"
             className={({ isActive }) => 
               `pb-4 px-1 ${isActive 
                 ? 'border-b-2 border-black text-black font-medium' 

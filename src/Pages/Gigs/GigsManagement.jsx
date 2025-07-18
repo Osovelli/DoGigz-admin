@@ -95,7 +95,7 @@ function Gigs() {
   }
 
   const handleOpenGig = (gig) => {
-    navigate(`/dashboard/gigs/${gig.id}`)
+    navigate(`/gigs/${gig.id}`)
   }
 
   return (

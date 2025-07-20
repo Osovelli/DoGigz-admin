@@ -110,7 +110,7 @@ const offersData = [
   },
 ]
 
-function GigOffersPage() {
+export const GigOffersPage = () => {
   const { id } = useParams()
   const navigate = useNavigate()
   const [activeTab, setActiveTab] = useState("gig-details")
@@ -158,7 +158,7 @@ function GigOffersPage() {
           My Case
         </Button>
         <span className="text-muted-foreground">&gt;</span>
-        <Button variant="link" className="p-0 h-auto text-muted-foreground" onClick={() => navigate("/my-case")}>
+        <Button variant="link" className="p-0 h-auto text-muted-foreground" onClick={() => navigate("/gigs")}>
           Gigs
         </Button>
         <span className="text-muted-foreground">&gt;</span>
@@ -346,5 +346,5 @@ function GigOffersPage() {
   )
 }
 
-export default GigOffersPage
+//export default GigOffersPage
 

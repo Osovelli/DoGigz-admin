@@ -39,7 +39,6 @@ import Wallet from "./Pages/WalletPage"
 import OverviewPage from "./Pages/OverviewPage"
 import PostGigPage from "./Pages/PostGigPage"
 import MyCasePage from "./Pages/MyCasePage"
-import GigOffersPage from "./pages/GigOffersPage"
 import MessagesPage from "./pages/MessagesPage"
 import VideoCallPage from "./pages/VideoCallPage"
 import DashboardHome from "./Pages/Dashboard/DashboardHome"
@@ -65,6 +64,8 @@ import FAQ from "./components/Settings/FAQ"
 import Newsletter from "./components/Settings/Newsletter"
 import CreateNewsletter from "./components/Settings/CreateNewletter"
 import Profile from "./Pages/Profile/Profile"
+import { GigOffersPage } from "./Pages/GigOffersPage"
+
 
 // View Transition wrapper
 function ViewTransitionWrapper({ children }) {

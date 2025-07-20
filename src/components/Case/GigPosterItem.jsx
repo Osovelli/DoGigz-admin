@@ -16,7 +16,7 @@ function GigPosterItem({ gig }) {
   }
 
   const handleViewApplicants = () => {
-    navigate(`/dashboard/gigs/${gig.id}/offers`)
+    navigate(`/gigs/${gig.id}/offers`)
   }
 
   const handleCancel = () => {

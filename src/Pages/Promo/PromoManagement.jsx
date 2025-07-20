@@ -107,7 +107,7 @@ const PromoManagement = () => {
   // Handle opening a promo
   const handleOpenPromo = (item) => {
     console.log(`Opening promo with ID: ${item.id}`)
-    navigate(`/dashboard/promo/${item.id}`)
+    navigate(`/promo/${item.id}`)
   }
 
   // Render custom actions for each row

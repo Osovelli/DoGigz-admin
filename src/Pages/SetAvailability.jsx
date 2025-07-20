@@ -58,7 +58,7 @@ function SetAvailability() {
       availabilitySets,
     })
     // Navigate to one-on-one preview page
-    navigate("/dashboard/one-on-one-preview")
+    navigate("/one-on-one-preview")
   }
 
   return (

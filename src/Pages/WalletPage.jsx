@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import DashboardLayout from "@/components/Dashboard/DashboardLayout"
 import Table from "@/components/CustomTable"
-import FundWalletModal from "@/components/Modals.jsx/FundWalletModal"
+import FundWalletModal from "@/components/Modals/FundWalletModal"
 import { Toaster } from "sonner"
-import CardFundingModal from "@/components/Modals.jsx/CardFundingModal"
-import ConvertPointsModal from "@/components/Modals.jsx/ConvertPointsModal"
-import WithdrawModal from "@/components/Modals.jsx/Withdrawal/WithdrawModal"
+import CardFundingModal from "@/components/Modals/CardFundingModal"
+import ConvertPointsModal from "@/components/Modals/ConvertPointsModal"
+import WithdrawModal from "@/components/Modals/withdrawal/WithdrawModal"
 
 // Sample transaction data
 const transactionsData = [

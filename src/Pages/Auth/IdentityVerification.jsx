@@ -29,7 +29,7 @@ function IdentityVerification() {
   }
 
   const handleSkip = () => {
-    navigate("/dashboard")
+    navigate("/")
   }
 
   return (

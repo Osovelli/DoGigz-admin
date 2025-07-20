@@ -33,7 +33,7 @@ function CourseCard({ course }) {
   return (
     <div 
     className="flex gap-6 p-4 hover:bg-gray-50 rounded-lg transition-colors"
-    onClick={() => navigate(`/dashboard/course/${course.id}`)}
+    onClick={() => navigate(`/course/${course.id}`)}
     >
       {/* Thumbnail */}
       <img
@@ -132,7 +132,7 @@ function OverviewPage() {
         <h1 className="text-2xl font-semibold">All Courses</h1>
         <CustomButton 
         variant="outline"
-        onClick={() => navigate("/dashboard/course-history")}
+        onClick={() => navigate("/course-history")}
         >
             Course History
         </CustomButton>

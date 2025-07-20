@@ -149,12 +149,12 @@ function DashboardHeader() {
   const userMenuItems = [
     {
       label: "Profile",
-      href: "/dashboard/profile",
+      href: "/profile",
       icon: User,
     },
     {
       label: "Settings",
-      href: "/dashboard/settings",
+      href: "/settings",
       icon: Settings,
       separator: true,
     },

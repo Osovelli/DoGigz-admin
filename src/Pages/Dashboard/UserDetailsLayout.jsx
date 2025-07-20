@@ -128,7 +128,7 @@ function UserDetailsLayout() {
         <div className="mb-8 md:mt-4 md:px-6">
           <div className="flex overflow-x-auto ">
             <Link
-              to={`/dashboard/user-management/${userId}/`}
+              to={`/user-management/${userId}/`}
               className={`px-6 py-3 font-medium text-sm whitespace-nowrap ${
                 activeTab === "info" ? "border-b-2 border-primary text-primary" : "text-gray-500 hover:text-gray-700"
               }`}
@@ -136,7 +136,7 @@ function UserDetailsLayout() {
               User information
             </Link>
             <Link
-              to={`/dashboard/user-management/${userId}/wallet`}
+              to={`/user-management/${userId}/wallet`}
               className={`px-6 py-3 font-medium text-sm whitespace-nowrap ${
                 activeTab === "wallet" ? "border-b-2 border-primary text-primary" : "text-gray-500 hover:text-gray-700"
               }`}
@@ -144,7 +144,7 @@ function UserDetailsLayout() {
               Wallet information
             </Link>
             <Link
-              to={`/dashboard/user-management/${userId}/courses`}
+              to={`/user-management/${userId}/courses`}
               className={`px-6 py-3 font-medium text-sm whitespace-nowrap ${
                 activeTab === "courses" ? "border-b-2 border-primary text-primary" : "text-gray-500 hover:text-gray-700"
               }`}
@@ -152,7 +152,7 @@ function UserDetailsLayout() {
               Courses
             </Link>
             <Link
-              to={`/dashboard/user-management/${userId}/gigs`}
+              to={`/user-management/${userId}/gigs`}
               className={`px-6 py-3 font-medium text-sm whitespace-nowrap ${
                 activeTab === "gigs" ? "border-b-2 border-primary text-primary" : "text-gray-500 hover:text-gray-700"
               }`}

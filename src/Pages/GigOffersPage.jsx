@@ -154,7 +154,7 @@ function GigOffersPage() {
     <div className="mx-auto px-4 py-8">
       {/* Breadcrumbs */}
       <div className="flex items-center gap-2 text-sm mb-6">
-        <Button variant="link" className="p-0 h-auto text-muted-foreground" onClick={() => navigate("/dashboard/case")}>
+        <Button variant="link" className="p-0 h-auto text-muted-foreground" onClick={() => navigate("/case")}>
           My Case
         </Button>
         <span className="text-muted-foreground">&gt;</span>

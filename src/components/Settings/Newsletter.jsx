@@ -160,7 +160,7 @@ const Newsletter = () => {
 
   // Handle creating a new newsletter
   const handleCreateNewsletter = () => {
-    navigate('/dashboard/settings/newsletter/create');
+    navigate('/settings/newsletter/create');
   };
 
   // Custom cell renderer for the table

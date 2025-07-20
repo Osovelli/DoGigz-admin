@@ -129,7 +129,7 @@ function AddCourseContent() {
     // Add your form submission logic here
     console.log(sections)
     // Navigate to preview or publish page
-    navigate("/dashboard/course-preview")
+    navigate("/course-preview")
   }
 
   const formatFileSize = (bytes) => {
@@ -274,7 +274,7 @@ function AddCourseContent() {
         <CustomButton
          type="submit" 
          className="w-full bg-black hover:bg-black/90"
-         onClick={() => navigate("/dashboard/course-preview")}
+         onClick={() => navigate("/course-preview")}
          >
           Preview
         </CustomButton>

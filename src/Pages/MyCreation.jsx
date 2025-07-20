@@ -188,7 +188,7 @@ function MyCreations() {
               </Button>
               <Button
                 className="bg-[#7C3AED] hover:bg-[#7C3AED]/90"
-                onClick={() => navigate(activeView === "gigs" ? "/dashboard/create-gig" : "/dashboard/create-course")}
+                onClick={() => navigate(activeView === "gigs" ? "/create-gig" : "/create-course")}
               >
                 <Plus className="mr-2 h-4 w-4" />
                 Create {activeView === "gigs" ? "Gig" : "Course"}

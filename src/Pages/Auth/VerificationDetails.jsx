@@ -20,7 +20,7 @@ function VerificationDetails() {
   }
 
   const handleSkip = () => {
-    navigate("/dashboard")
+    navigate("/")
   }
 
   return (

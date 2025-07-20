@@ -45,7 +45,7 @@ function AdminLayout() {
         <ProfileViewer
           avatarUrl="/avatar.png"
           username="Abayomi Olowu"
-          profileLink="/dashboard/profile"
+          profileLink="/profile"
           onSignOut={handleSignOut}
         />
 

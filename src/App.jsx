@@ -149,7 +149,7 @@ function App() {
           <Route path="case" element={<MyCasePage />} />
           <Route path="gigs/:id/offers" element={<GigOffersPage />} />
           {/* Add other dashboard routes here */}
-            <Route path="/dashboard/account" element={<AccountLayout />}>
+            <Route path="/account" element={<AccountLayout />}>
               <Route index element={<EditProfile />} />
               <Route path="work-samples" element={<WorkSamples />} />
               <Route path="notification" element={<Notification />} />

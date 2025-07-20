@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Table } from "@/components/Table"
 import { Play, Star } from "lucide-react"
-import DisableCourseModal from "@/components/Modals.jsx/Course/DisableCourseModal"
+import DisableCourseModal from "@/components/Modals/Course/DisableCourseModal"
 import { toast } from "react-hot-toast"
 
 // Sample students data

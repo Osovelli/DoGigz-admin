@@ -3,7 +3,7 @@ import { X, ChevronRight } from "lucide-react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import AddCardModal from "./AddCardModal"
+import AddCardModal from "../Modals/AddCardModal"
 
 function CardFundingModal({ isOpen, onClose }) {
   const [amount, setAmount] = useState("")

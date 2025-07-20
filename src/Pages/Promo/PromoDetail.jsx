@@ -126,7 +126,7 @@ const PromoDetail = () => {
   }
 
   const handleBack = () => {
-    navigate("/dashboard/promo")
+    navigate("/promo")
   }
 
   const handleDisablePromo = () => {

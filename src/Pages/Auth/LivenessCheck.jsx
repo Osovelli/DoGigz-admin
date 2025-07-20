@@ -99,7 +99,7 @@ function LivenessCheck() {
   }, []) // Remove stopCamera from dependencies to avoid recreation
 
   const handleSkip = () => {
-    navigate("/dashboard")
+    navigate("/")
   }
 
   const handleButtonClick = () => {

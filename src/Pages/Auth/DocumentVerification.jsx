@@ -32,7 +32,7 @@ function DocumentVerification() {
   }
 
   const handleSkip = () => {
-    navigate("/dashboard")
+    navigate("/")
   }
 
   return (

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { cn } from "@/lib/utils"
 import { useNavigate } from "react-router-dom"
-import EnrollmentSuccessModal from "@/components/Modals.jsx/EnrollmentSuccessModal"
+import EnrollmentSuccessModal from "@/components/Modals/EnrollmentSuccessModal"
 import CourseSidebar from "../components/CourseSidebar"
 
 const tabs = [

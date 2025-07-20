@@ -97,7 +97,7 @@ function Sidebar({ open, onClose }) {
       >
         {/* Logo */}
         <div className="py-6 sm:py-3 px-4">
-          <Link to="/dashboard" className="flex flex-col">
+          <Link to="/" className="flex flex-col">
             <span className="text-xl font-bold">DoGigz</span>
             <span className="text-xs text-gray-500 uppercase tracking-wider">Administrative Panel</span>
           </Link>

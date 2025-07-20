@@ -47,9 +47,9 @@ function CreateCourse() {
     console.log(formData)
     // Navigate based on course type
     if (formData.type === "1-on-1") {
-      navigate("/dashboard/set-availability")
+      navigate("/set-availability")
     } else {
-      navigate("/dashboard/add-course-content")
+      navigate("/add-course-content")
     }
   }
 

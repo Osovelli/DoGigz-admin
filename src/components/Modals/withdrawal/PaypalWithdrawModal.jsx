@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import WithdrawalConfirmationModal from "./WithdrawalConfirmationModal"
 
-function PayPalWithdrawModal({ isOpen, onClose, walletBalance }) {
+function PaypalWithdrawModal({ isOpen, onClose, walletBalance }) {
   const [amount, setAmount] = useState("")
   const [email, setEmail] = useState("")
   const [isConfirmationModalOpen, setIsConfirmationModalOpen] = useState(false)
@@ -123,4 +123,4 @@ function PayPalWithdrawModal({ isOpen, onClose, walletBalance }) {
   )
 }
 
-export default PayPalWithdrawModal
+export default PaypalWithdrawModal
